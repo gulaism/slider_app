@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="w-[500px] p-[21px] border border-[#E0E0E0] mx-auto my-4 rounded-[8px]">
+        <figure class="aspect-[4/3] overflow-hidden relative">
+            <img id="photo" class="rounded-[8px] overflow-hidden size-full object-cover" src="./assets/images/photo-1.jpg" alt="">
+            <div class="absolute inset-0 flex items-center justify-between px-[12px]">
+                <button id="btnPrev" class="size-[40px] bg-[#414141] text-white rounded-full">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                </button>
+
+                <button id="btnNext" class="size-[40px] bg-[#414141] text-white rounded-full">
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </button>
+            </div>
+        </figure>
+        <div class="mt-[21px]">
+            <div id="title" class="font-bold">2016 Mustang GT, San Francisco, United States</div>
+            <div id="date" class="mt-[9px] text-[#666] font-bold">7 May 2024</div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
